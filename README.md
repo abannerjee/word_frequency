@@ -32,7 +32,7 @@ A word has been defined to have the following properties:
 ### Notes
 
 * Certain characters which have not been filtered are considered words, such as "&".
-* Email addresses will not parse correctly (e.g. alex@gmail.com will be interpreted as alex@gmailcom).
+* Email addresses will not parse correctly (e.g. alex@host.com will be interpreted as alex@hostcom).
 * In the case a tie occurs in the frequency of two or more words or sets of words,
 the word or set of words which appear first in the document is listed first. The numbering is unaffected, meaning
 there won't be two words or set of words marked as #1.
