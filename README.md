@@ -12,14 +12,14 @@ The following command will clone the repo into the current directory:
 ```
 git clone https://github.com/abannerjee/word_frequency.git
 ```
+or download the raw script file from here:
+```
+https://raw.githubusercontent.com/abannerjee/word_frequency/master/word_frequency.py
+```
 
 ### Usage
 ```
 python3.2 word_frequency.py -f <input_file> -w <single_word>
-```
-or download the raw script file from here:
-```
-https://raw.githubusercontent.com/abannerjee/word_frequency/master/word_frequency.py
 ```
 
 ### Defining a Word
