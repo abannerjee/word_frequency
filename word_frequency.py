@@ -51,8 +51,8 @@ def _freq_words_after_pair(words, pair_words):
 
     for j in range(len(pair_words)):
         split = pair_words[j][0].split()
-        trio_freq = ["{} {} {}".format(item.one, item.two, item.three) \
-                for item in triplets \
+        trio_freq = ["{} {} {}".format(item.one, item.two, item.three)
+                for item in triplets
                 if item.one == split[0] and item.two == split[1]]
         _freq_words(trio_freq)
 
